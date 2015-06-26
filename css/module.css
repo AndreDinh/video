@@ -1,0 +1,64 @@
+/*phones*/
+@media(min-width: 300px){
+
+/*header*/
+  header{
+  display:inline-block;
+  }
+/*body*/
+  .article__header--form{
+    display: block;
+    height: 10%;
+  }
+  .article__header--paragraph{
+    font-size: .625em;
+  }
+
+}
+/*tablets*/
+@media(min-width: 768px){
+  .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /*body*/
+  img{
+    display: none;
+  }
+  .article__header--form{
+    display: block;
+    height: 50%;
+  }
+  .article__header--paragraph{
+    font-size: 2.618em;
+  }
+
+}
+/*Desktop*/
+@media(min-width: 1200px){
+
+  /*header*/
+  .nav__link{
+    padding: 15px;
+    text-decoration: none;
+}
+
+  /*body*/
+
+  .article__header--img{
+    height: 3.375em;
+  }
+
+}
+/*non media styles*/
+.hidden{
+  /*position: absolute;*/
+  /*visibility: hidden;*/
+  display: none;
+}
+  article:nth-child(odd){
+    background-color: #9CC4FF;
+    opacity: 0.5;
+}
